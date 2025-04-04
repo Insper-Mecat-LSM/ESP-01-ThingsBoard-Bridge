@@ -49,7 +49,7 @@ void setup()
   // Serial.print("Connected to WiFi network with IP Address: ");
   // Serial.println(WiFi.localIP());
 }
-// {"ID":"vNhzKieKCPuVFbtcRRNI","data":{"temperature":12.5, "Hugo":"Testando", "Boleana":false}}
+// {"ID":"vNhzKieKCPuVFbtcRRNI","data":{"temperature":12.5, "Hugo":"funfa", "Boleana":false}}
 
 
 void loop()
