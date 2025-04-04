@@ -23,3 +23,40 @@ Em outras palavras:
 
 1. A ESP-01 tenta se conecta com o WiFi do LSM e enquanto não conseguir imprime "." na serial
 2. Após se conectar no WiFi ela fica aguardando o envio de comandos
+3. Caso recaba alguma mensagem a placa irá tratar o texto e retornar alguma mensagem
+
+
+## Mensagens possíveis:
+- "100" - Erro WiFi não conectado
+- "101" - Erro WiFi conectado, mas JSON com erro
+- "200" - Conexão com o Thingsboard bem sucedida
+
+Outras mensagens serão Erros de HTTP, como 404, 500, etc.
+
+Um outro erro possível será perceptível caso a ESP-01 fique enviando "." sem parar, isso significa que a placa não conseguiu conectar na rede WiFi configurada.
+
+
+## Como conectar a ESP-01:
+> [!TIP]
+> Caso deseje você pode fazer a sua própria PCB, o arquivo Proteus e os Gerbers estão na pasta "Proteus"
+
+### Caso você tenha a PCB + Conversor Serial TTL:
+
+<img src="Images/ESP-01_PCB_conectada.png" width=60%>
+
+Basta montar o conjunto conforme a imagem a cima, conectar em seu computador o conversor e abrir o seu monitor serial de preferência.
+> [!WARNING]
+> Para que o conversor funcione corretamente deixe o Jumper conectado ao 5V
+
+
+### Caso você tenha a PCB:
+
+<img src="Images/ESP-01_PCB.png" width=40%>
+
+As conexões estão descritas na imagem a cima, basta conectar o RX da placa no TX de seu projeto, o TX da placa no RX de seu projeto, conectar os GND's e por último alimentar a placa com 3.3V.
+
+
+### Caso você tenha apenas a ESP-01:
+
+<img src="Images/ESP-01.png" width=40%>
+

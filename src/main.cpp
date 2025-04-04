@@ -4,7 +4,7 @@
   2 - "101" - WiFi conectado, mas JSON com erro
   3 - "200" - Conexão com o Thingsboard bem sucedida
 
-  Outros mensagens serão Erros de HTTP, como 404, 500, etc.
+  Outras mensagens serão Erros de HTTP, como 404, 500, etc.
 */
 
 #include <ESP8266WiFi.h>
