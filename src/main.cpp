@@ -65,8 +65,8 @@ void loop()
       // Testa se o JSON foi recebido corretamente
       if (JSON.typeof(JsonReceived) == "undefined")
       {
-        Serial.println("101 - JSON parse error");
-        Serial.println("Received: " + Received);
+        Serial.println("101");
+        // Serial.println("Received: " + Received);
         return;
       }
 
