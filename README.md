@@ -13,3 +13,6 @@ Autor: [Kaique Dognani](https://github.com/kaiqued1)
 O código que está rodando na ESP-01 funciona com base no seguinte fluxograma básico:
 
 <img src="Images/fluxograma_basico.png" width=50% height=50%>
+
+
+
