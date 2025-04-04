@@ -2,6 +2,7 @@
 
 Autor: [Kaique Dognani](https://github.com/kaiqued1)
 
+> [!NOTE]
 > Este repositório tem o intuito de te ajudar a conectar seu projeto físico ao Thingsboard utilizando apenas uma ESP-01, ao final deste manual você será capaz de enviar dados por uma porta serial para a ESP-01 e vizualizá-los em seu ThingsBoard
 
 > [!TIP]
